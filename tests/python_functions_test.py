@@ -1,6 +1,5 @@
 from src.python_functions_practice import *
 
-# hi
 import unittest
 
 class TestPythonFunctionPractice(unittest.TestCase):
@@ -82,9 +81,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
   #Given the length of a side of a cube calculate the volume
   
   def test_volume_of_cube(self):
-      cube_volume = num1 * num1 * num1
-      test_volume_of_cube = cube_volume
-      return cube_volume
+      cube_volume = volume_of_cube(3)
 
   #Given a String, return the String reversed
   @unittest.skip("delete this line to run the test")

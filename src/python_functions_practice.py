@@ -49,3 +49,6 @@ def number_to_short_month_name(num):
           return "Apr"
     elif (num == 10):
           return "Oct"
+
+def volume_of_cube(num):
+    return (num * 3)
